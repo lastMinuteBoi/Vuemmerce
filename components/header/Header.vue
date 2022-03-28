@@ -96,7 +96,7 @@
 
 <style lang="scss" scoped>
   .title {
-    background: url('../../static/vuemmerce-logo.png') no-repeat;
+    background: url('../../static/ine.png') no-repeat;
     background-position: 50% 50%;
     background-size: 165px;
     width: 175px;

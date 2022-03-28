@@ -2,7 +2,7 @@
   <div class="section">
     <div class="card is-clearfix columns">
         <figure class="card-image is-480x480 column is-one-thirds">
-          <img src="https://bulma.io/images/placeholders/480x480.png">
+          <img :src="product.image" alt="Placeholder image"/>
         </figure>
         <div class="card-content column is-two-thirds">
           <div class="card-content__title">
@@ -21,8 +21,7 @@
           </div>
           <div class="card-content__text">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud
+             {{ product.description }}
             </p>
           </div>
           <div class="card-content__ratings">
@@ -57,7 +56,7 @@
             </div>
           </div>
           <div class="card-content__price is-pulled-left">
-            <span class="title is-3"><strong>{{ product.price }}&euro;</strong></span>
+            <span class="title is-3"><strong>{{ product.price }}&dollar;</strong></span>
           </div>
           <div class="card-content__btn is-pulled-right">
             <button class="button is-primary" v-if="!isAddedBtn" @click="addToCart(product.id)">{{ addToCartLabel }}</button>
@@ -65,6 +64,17 @@
           </div>
       </div>
     </div>
+    <nuxt-link
+      class="details"
+      :to="{
+        name: 'product_detail-id',
+        params: {
+          image: product.image,
+          description: product.description
+        }
+      }"
+    >
+    </nuxt-link>
   </div>
 </template>
 
