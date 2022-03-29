@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="top">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <nuxt-link :to="{ name: 'index' }" class="navbar-item">
@@ -98,7 +98,7 @@
   .title {
     background: url('../../static/ine.png') no-repeat;
     background-position: 50% 50%;
-    background-size: 165px;
+    background-size: 100px;
     width: 175px;
     height: 35px;
   }
@@ -107,5 +107,10 @@
   }
   a {
     color: grey;
+  }
+  .navbar {
+    background-color: #201f21;
+    position: fixed;
+    width: 100%;
   }
 </style>

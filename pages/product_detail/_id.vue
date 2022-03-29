@@ -166,5 +166,9 @@ export default {
       margin-bottom: 10px;
     }
   }
+
+  .card {
+    margin-top: 40px;
+  }
 </style>
 

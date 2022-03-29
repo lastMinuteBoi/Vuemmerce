@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <div class="card-image">
       <figure class="image is-4by3">
         <img :src="product.image" alt="Placeholder image"/>
@@ -182,6 +182,7 @@ export default {
  .buttons {
    margin: 0;
  }
+
 </style>
 
 
