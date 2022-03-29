@@ -20,11 +20,12 @@
 				<div class="email" v-if="products.length >= 1 && !isCheckoutSection">
 					<form>
 						<label for="email">Enter your email:</label>
-						<input type="email" id="email" name="email">
+						<input type="email" id="email" name="email" v-model="emailAddress">
 					</form>
 				</div>
 				<div v-if="isCheckoutSection">
-					<p>Your payment link has been sent to the specified email address</p>
+					Your payment link has been sent to
+					<span class="email-link">{{ emailAddress }}</span>
 				</div>
 			</section>
 			<footer class="modal-card-foot">
@@ -127,5 +128,8 @@ export default {
 		margin-top: 10px;
 		padding: 15px;
 		
+	}
+	.email-link {
+		font-weight: bold;
 	}
 </style>
