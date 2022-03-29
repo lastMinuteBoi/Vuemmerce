@@ -109,7 +109,8 @@
     color: grey;
   }
   .navbar {
-    background-color: #201f21;
+    background-color: rgba(32, 31, 33, 0.1);
+    backdrop-filter: blur(10px);
     position: fixed;
     width: 100%;
   }

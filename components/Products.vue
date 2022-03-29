@@ -10,7 +10,7 @@
         <div class="media-content">
           <p class="title is-4">{{ product.title }}</p>
         </div>
-        <div>
+        <!-- <div>
           <button class="button is-small" :title="removeFromFavouriteLabel" v-show="product.isFavourite" @click="removeFromFavourite(product.id)">
             <span class="icon is-small">
               <i class="fas fa-heart"></i>
@@ -21,7 +21,7 @@
               <i class="far fa-heart"></i>
             </span>
           </button>
-        </div>
+        </div> -->
       </div>
       <div class="content is-clearfix">
         <p>{{ product.description }}</p>
@@ -181,6 +181,10 @@ export default {
  }
  .buttons {
    margin: 0;
+ }
+
+ .is-primary {
+   background-color: rgb(14, 159, 226);
  }
 
 </style>

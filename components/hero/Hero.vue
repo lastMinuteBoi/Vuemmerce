@@ -6,8 +6,7 @@
           Daily Cart
         </h1>
         <h2 class="subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt
+          A simple E-commerce application to buy electronics, tables and other gadgets.
         </h2>
       </div>
     </div>
@@ -39,6 +38,7 @@ h2 {
 }
 .title {
   text-align: center;
+  font-weight: bold;
 }
 .subtitle {
   text-align: center;

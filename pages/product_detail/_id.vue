@@ -7,7 +7,7 @@
         <div class="card-content column is-two-thirds">
           <div class="card-content__title">
             <h2 class="title is-4">{{ product.title }}
-              <button class="button is-small" :title="removeFromFavouriteLabel" v-show="product.isFavourite" @click="removeFromFavourite(product.id)">
+              <!-- <button class="button is-small" :title="removeFromFavouriteLabel" v-show="product.isFavourite" @click="removeFromFavourite(product.id)">
                 <span class="icon is-small">
                   <i class="fa fa-heart"></i>
                 </span>
@@ -16,7 +16,7 @@
                 <span class="icon is-small">
                   <i class="far fa-heart"></i>
                 </span>
-              </button>
+              </button> -->
             </h2>
           </div>
           <div class="card-content__text">
@@ -168,7 +168,11 @@ export default {
   }
 
   .card {
-    margin-top: 40px;
+    margin-top: 5vh;
+  }
+
+  .section {
+    margin-bottom: 40vh;
   }
 </style>
 
