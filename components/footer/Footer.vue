@@ -5,7 +5,7 @@
         <!-- <p>INE</p> -->
       </div>
     <div class="column has-text-right">
-      <p>Made in 🧡 from INE Team</p>
+      <p>Made with 🧡 from INE</p>
     </div>
     </div>
   </div>
