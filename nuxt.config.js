@@ -1,7 +1,7 @@
 const pkg = require("./package");
 
 module.exports = {
-  target: "static",
+  target: "server",
 
   router: {
     base: "/"
