@@ -6,7 +6,7 @@
           Daily Cart
         </h1>
         <h2 class="subtitle">
-          A simple E-commerce application to buy computers, lens, drones and other gadgets.
+          Your one stop place to shop computers, lens, drones and other gadgets in never before seen prices.
         </h2>
       </div>
     </div>
@@ -15,7 +15,7 @@
 
 <style lang="scss" scoped>
 .hero {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(135deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 40vh;
