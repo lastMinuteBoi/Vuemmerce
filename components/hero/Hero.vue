@@ -6,7 +6,7 @@
           Daily Cart
         </h1>
         <h2 class="subtitle">
-          A simple E-commerce application to buy electronics, tables and other gadgets.
+          A simple E-commerce application to buy computers, lens, drones and other gadgets.
         </h2>
       </div>
     </div>

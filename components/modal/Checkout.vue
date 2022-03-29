@@ -17,8 +17,14 @@
 						<p>{{ cartEmptyLabel }}</p>
 					</div>
 				</div>
+				<div class="email" v-if="products.length >= 1 && !isCheckoutSection">
+					<form>
+						<label for="email">Enter your email:</label>
+						<input type="email" id="email" name="email">
+					</form>
+				</div>
 				<div v-if="isCheckoutSection">
-					<p>You bought it :-)</p>
+					<p>Your payment link has been sent to the specified email address</p>
 				</div>
 			</section>
 			<footer class="modal-card-foot">
@@ -103,10 +109,10 @@ export default {
 		},
 		onNextBtn () {
 			if (this.isUserLoggedIn) {
-				this.isCheckoutSection = true;
-			} else {
 				this.$store.commit('showCheckoutModal', false);
 				this.$store.commit('showLoginModal', true);
+			} else {
+				this.isCheckoutSection = true;
 			}
 		},
 		onPrevBtn () {
@@ -116,3 +122,10 @@ export default {
 }
 </script>
 
+<style lang="scss">
+	.email {
+		margin-top: 10px;
+		padding: 15px;
+		
+	}
+</style>
