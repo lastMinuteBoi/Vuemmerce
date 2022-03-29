@@ -237,7 +237,7 @@ export const state = () => ({
     {
       id: 19,
       title: 'Aesthetic Chair',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: "Nisse Stainless Steel Multipurpose Epoxy Powder Coating Folding Chair for Office Use, Kids, Home. You can fold the chair, so it takes less space when you're not using it. You can hang the chair on a hook on the wall.",
       price: 50,
       ratings: 3,
       reviews: 5,
@@ -250,7 +250,7 @@ export const state = () => ({
     {
       id: 20,
       title: 'Flash Drive',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'The 2-in-1 Pendrive for Mobile with a reversible USB Type-C and a traditional Type-A connector. Seamlessly move content between your USB Type-C smartphone, tablets and Macs and USB Type-A computers.',
       price: 35,
       ratings: 5,
       reviews: 10,
@@ -263,7 +263,7 @@ export const state = () => ({
     {
       id: 21,
       title: 'Coffee',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Start your day right with the first sip of this classic that awakens your senses to new opportunities. Premium frothy instant coffee right at home; a must try for all coffee-lovers. Flavor: Plain',
       price: 110,
       ratings: 2,
       reviews: 3,
@@ -276,7 +276,7 @@ export const state = () => ({
     {
       id: 22,
       title: 'Airpods Pro',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Active noise cancellation for immersive sound. Transparency mode for hearing and connecting with the world around you. Sweat and water resistant. Adaptive EQ automatically tunes music to the shape of your ear',
       price: 50,
       ratings: 1,
       reviews: 0,
@@ -289,7 +289,7 @@ export const state = () => ({
     {
       id: 23,
       title: 'Bulb',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'WiFi Smart LED Bulb with Music Sync Compatible with Amazon Alexa and Google Assistant ( Warm White/Neutral White/White, Standard ). 16 Million Colour - Explore endless lighting possibilities with 16mn Colour Options',
       price: 7,
       ratings: 4,
       reviews: 2,
@@ -302,7 +302,7 @@ export const state = () => ({
     {
       id: 24,
       title: 'Old Book',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'The 200+ activities book is ideal to introduce math, language and logic to preschoolers. The colourfully illustrated pages have been designed in a creative manner to teach a variety of skills',
       price: 10,
       ratings: 5,
       reviews: 1,
@@ -315,7 +315,7 @@ export const state = () => ({
     {
       id: 25,
       title: 'Soap Dispenser',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Dispenser with Pump for Bathroom, Kitchen and Wash-Basin, 380ml (Black). SMOOTH FINISH: The modern ceramic soap dispenser has an elegant matte finish. Its vibrant and fashionable look will add a touch of luxury',
       price: 13,
       ratings: 5,
       reviews: 7,
@@ -328,7 +328,7 @@ export const state = () => ({
     {
       id: 26,
       title: 'Bottle',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Frosty Plastic Food Grade Fridge Square Water Bottle Set(6 Pieces, 1L,Assorted). Hygienic bottle: the bottle is made of 100% food grade polypropylene (pp) material from source ensuring safe drinkable water.',
       price: 5,
       ratings: 3,
       reviews: 0,
@@ -341,7 +341,7 @@ export const state = () => ({
     {
       id: 27,
       title: 'Gift Bag',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Handmade Party Favour Paper Carry Bag (Multicolour) -Set of 5. Product Dimension : H-10 x L-8 x W-3. Paper shopping bag with twisted paper carrying handles for disposable transport of retail purchase items.',
       price: 15,
       ratings: 4,
       reviews: 2,
@@ -354,7 +354,7 @@ export const state = () => ({
     {
       id: 28,
       title: 'Solid State Drive',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: '240 GB, SSD write cache is enabled,Low power consumption, Laptop and Desktop. 2.5Inch,/SATA 6 Gb/s interface, ATA modes supported. Sequential 128KB Read and Write speeds up to 540MB/s and 500MB/s',
       price: 80,
       ratings: 4,
       reviews: 2,
@@ -367,7 +367,7 @@ export const state = () => ({
     {
       id: 29,
       title: 'Pillows',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: '1 Piece Microfibre Pillow. Pillow is the perfect gift to use in sofa, couch, chair, bed, school, for travel and naps. The rich sheen gives your space a sense of splendor and opulence within you',
       price: 10,
       ratings: 4,
       reviews: 2,
@@ -380,7 +380,7 @@ export const state = () => ({
     {
       id: 30,
       title: 'Lightning Port',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'This cable comes with charging & Data sync function. TPE + Nylon Material to make sure that the life of the cable is enhanced significantly. 1.2M POR-1080 Fast Charging 3A 8 Pin USB Cable with Charge & Sync Function',
       price: 20,
       ratings: 4,
       reviews: 2,
@@ -393,7 +393,7 @@ export const state = () => ({
     {
       id: 31,
       title: 'Nike Shoe',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'The Nike Quest 3 delivers functional versatility for the committed runner. Its streamlined design features layers of material to help you stay cool and secure. Increased foam heights give you more responsiveness.',
       price: 90,
       ratings: 4,
       reviews: 2,
@@ -406,7 +406,7 @@ export const state = () => ({
     {
       id: 32,
       title: 'Over Ear Headphone',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Wireless Bluetooth Over The Ear Headphones with Mic. Tap into instant wireless connectivity with the latest Bluetooth V5.0. Its 50mm dynamic drivers help pump out immersive audio all day long',
       price: 100,
       ratings: 4,
       reviews: 2,
@@ -419,7 +419,7 @@ export const state = () => ({
     {
       id: 33,
       title: 'Bike',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Bolt Series , Steel MTB 27.5 Mountain Cycle - Disc Brake with PAN India Installation and OneFitPlus App Tracking. The High-quality double disc brakes on both front and rear wheels ensure stable and quick braking',
       price: 410,
       ratings: 4,
       reviews: 2,
@@ -432,7 +432,7 @@ export const state = () => ({
     {
       id: 34,
       title: 'Pencil Bundle',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Art Bundle Multicolor Cartoon Printed Pencil Drawing Item (Pack of-24 Mixed Pencil). Package includes combo packs assorted designs. A perfect birthday return gift for every kid.',
       price: 10,
       ratings: 4,
       reviews: 2,
@@ -445,7 +445,7 @@ export const state = () => ({
     {
       id: 35,
       title: 'Ipod Classic',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: 'Your favourite music, gaming and AR apps in your pocket. A10 Fusion chip for up to 2x faster performance, up to 3x faster graphics. Group FaceTime with family and friends. Connect using Wi-Fi and Bluetooth',
       price: 240,
       ratings: 4,
       reviews: 2,
@@ -458,7 +458,7 @@ export const state = () => ({
     {
       id: 36,
       title: 'iPhone 4',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      description: '8MP primary camera with true tone flash, auto focus, geo tagging, face detection burst mode and 1.2MP front facing camer. 10.16 centimeters (4-inch) multi-touch retina capacitive touchscreen with 640 x 1136 pixels.',
       price: 510,
       ratings: 4,
       reviews: 2,
