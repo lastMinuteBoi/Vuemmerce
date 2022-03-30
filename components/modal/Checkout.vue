@@ -37,7 +37,9 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
+
 	name: 'checkout',
     
 	data () {
@@ -114,13 +116,18 @@ export default {
 				this.$store.commit('showLoginModal', true);
 			} else {
 				this.isCheckoutSection = true;
+				let response = axios.post('', {
+					greeting: "Hello Lambda"
+				})
+				let message = response;
+				console.log(message)
 			}
 		},
 		onPrevBtn () {
 			this.isCheckoutSection = false;
 		}
-	}
-}
+	},
+}	
 </script>
 
 <style lang="scss">
